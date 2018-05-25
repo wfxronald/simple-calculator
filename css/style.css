@@ -1,0 +1,59 @@
+body {
+	background: #f2f2f2;
+	color: #000000;
+	font-family: "Arial", sans-serif;
+}
+
+#container {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #595959;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#screen {
+	width: 170px;
+	border-radius: 5px;
+	background: #999966;
+	color: #000000;
+	font-size:20px;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+button.number, #equal, #reset {
+	width: 55px;
+	height: 55px;
+	font-size: 30px;
+	color: #000000;
+	vertical-align: middle;
+	border: 0;
+}
+
+button.operator {
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	color: #000066;
+	vertical-align: middle;
+	border: 0;
+}
+
+button:hover {
+	background: #808080;
+}
+
+span {
+	display: block;
+	margin-top: 5px;
+}
+
+#topbutton, #bottombutton {
+	margin-top: 10px;
+}
